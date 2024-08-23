@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Elementos e Pseudo Classes</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="principaltitle">
+        Conhecendo Pseudo Elementos e Pseudo Classes
+      </h1>
+    </header>
+
+    <main>
+      <h2 class="secondtitle">Pseudo Elementos</h2>
+
+      <p>
+        Os pseudo-elementos são usados para estilizar partes específicas de um
+        elemento. Eles criam elementos virtuais que não existem no HTML,
+        permitindo aplicar estilos a partes como a primeira letra de um texto,
+        ou a primeira linha de um parágrafo. Alguns exemplos incluem:
+      </p>
+
+      <div class="container">
+        <h2>::before</h2>
+        <p>
+          Permite inserir conteúdo antes do conteúdo do elemento selecionado.
+        </p>
+
+        <p class="pcontainer1">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
+          quibusdam quis quae reprehenderit? Laborum eligendi aliquid, magni
+          laboriosam quia exercitationem maiores sit quaerat placeat praesentium
+          ad beatae temporibus voluptas hic.
+        </p>
+      </div>
+
+      <div class="container">
+        <h2>::after</h2>
+        <p>Permite inserir conteúdo após o conteúdo do elemento selecionado.</p>
+
+        <p class="pcontainer2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+          recusandae. Adipisci molestias perferendis tempore ducimus unde, animi
+          illum doloribus commodi consequatur quo ipsum dicta nihil accusantium
+          ratione. Nostrum, dignissimos eos?
+        </p>
+      </div>
+
+      <div class="container">
+        <h2>::first-letter</h2>
+        <p>Estiliza a primeira letra de um elemento de bloco.</p>
+
+        <p class="pcontainer3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+          at aut repellendus maiores nesciunt, voluptas, ullam illum laboriosam
+          iusto aperiam reprehenderit dicta harum! Unde, tempora dicta. In odit
+          deserunt veritatis.
+        </p>
+      </div>
+
+      <div class="container">
+        <h2>::first-line</h2>
+        <p>Estila a primeira linha de um elemento.</p>
+
+        <p class="pcontainer4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut in nemo,
+          sed excepturi voluptatibus eveniet. In, quaerat consequatur. Vero
+          doloremque, tempore repellat optio corporis incidunt alias. Quae nobis
+          quas impedit.
+        </p>
+      </div>
+
+      <h2 class="secondtitle">Pseudo Classes</h2>
+
+      <p>
+        As pseudo-classes são utilizadas para aplicar estilos a elementos com
+        base em estados específicos ou ações do usuário. Alguns exemplos comuns
+        incluem:
+      </p>
+
+      <div class="container">
+        <h2>:hover</h2>
+        <p>Estiliza um elemento quando o cursor do mouse está sobre ele. Ex:</p>
+
+        <div>
+          <button class="link1">Link 1</button>
+          <button class="link1">Link 2</button>
+          <button class="link1">Link 3</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2>:active</h2>
+        <p>Aplica estilos quando o elemento está sendo clicado. Ex:</p>
+
+        <div>
+          <button class="link2">Link 1</button>
+          <button class="link2">Link 2</button>
+          <button class="link2">Link 3</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2>:focus</h2>
+        <p>
+          Aplica um estilo quando o elemento tem foco (como após ser clicado ou
+          selecionado por teclado. Ex:
+        </p>
+
+        <div>
+          <button class="link3">Link 1</button>
+          <button class="link3">Link 2</button>
+          <button class="link3">Link 3</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
